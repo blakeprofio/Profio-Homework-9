@@ -15,6 +15,8 @@
 		60BFCF7724589B4400BE6F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BFCF7524589B4400BE6F89 /* LaunchScreen.storyboard */; };
 		60BFCF8224589B4400BE6F89 /* Profio_Homework__9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFCF8124589B4400BE6F89 /* Profio_Homework__9Tests.swift */; };
 		60BFCF8D24589B4400BE6F89 /* Profio_Homework__9UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFCF8C24589B4400BE6F89 /* Profio_Homework__9UITests.swift */; };
+		60BFCF9C24589CFF00BE6F89 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BFCF9B24589CFF00BE6F89 /* WebKit.framework */; };
+		60BFCF9E24589F7400BE6F89 /* 1940.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 60BFCF9D24589F7400BE6F89 /* 1940.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		60BFCF8824589B4400BE6F89 /* Profio Homework #9UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Profio Homework #9UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BFCF8C24589B4400BE6F89 /* Profio_Homework__9UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profio_Homework__9UITests.swift; sourceTree = "<group>"; };
 		60BFCF8E24589B4400BE6F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60BFCF9B24589CFF00BE6F89 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		60BFCF9D24589F7400BE6F89 /* 1940.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 1940.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60BFCF9C24589CFF00BE6F89 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,7 @@
 				60BFCF8024589B4400BE6F89 /* Profio Homework #9Tests */,
 				60BFCF8B24589B4400BE6F89 /* Profio Homework #9UITests */,
 				60BFCF6824589B4300BE6F89 /* Products */,
+				60BFCF9A24589CFF00BE6F89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +112,7 @@
 				60BFCF7324589B4400BE6F89 /* Assets.xcassets */,
 				60BFCF7524589B4400BE6F89 /* LaunchScreen.storyboard */,
 				60BFCF7824589B4400BE6F89 /* Info.plist */,
+				60BFCF9D24589F7400BE6F89 /* 1940.pdf */,
 			);
 			path = "Profio Homework #9";
 			sourceTree = "<group>";
@@ -126,6 +133,14 @@
 				60BFCF8E24589B4400BE6F89 /* Info.plist */,
 			);
 			path = "Profio Homework #9UITests";
+			sourceTree = "<group>";
+		};
+		60BFCF9A24589CFF00BE6F89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60BFCF9B24589CFF00BE6F89 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +249,7 @@
 			files = (
 				60BFCF7724589B4400BE6F89 /* LaunchScreen.storyboard in Resources */,
 				60BFCF7424589B4400BE6F89 /* Assets.xcassets in Resources */,
+				60BFCF9E24589F7400BE6F89 /* 1940.pdf in Resources */,
 				60BFCF7224589B4300BE6F89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
